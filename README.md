@@ -39,6 +39,7 @@ python main.py
 
 ## 文件结构
 
+```
 ├── main.py          # 游戏入口
 ├── constants.py     # 常量配置
 ├── settings.py      # 设置和多语言文本
@@ -47,7 +48,17 @@ python main.py
 ├── event.py         # 事件类
 ├── story.py         # 所有事件数据
 ├── scenes.py        # 游戏场景
-└── assets/          # 图片和音效资源
+├── README.md        # 项目说明
+└── assets/          # 资源文件夹
+    ├── images/      # 图片资源
+    │   ├── correct.png
+    │   ├── wrong.png
+    │   └── neutral.png
+    └── sounds/      # 音效资源
+        ├── correct.mp3
+        ├── wrong.mp3
+        └── bgm.mp3
+```
 
 ---
 
@@ -92,6 +103,7 @@ python main.py
 
 ## Структура проекта
 
+```
 ├── main.py          # Точка входа
 ├── constants.py     # Константы
 ├── settings.py      # Настройки и тексты
@@ -100,8 +112,17 @@ python main.py
 ├── event.py         # Класс события
 ├── story.py         # Данные событий
 ├── scenes.py        # Сцены игры
-└── assets/          # Изображения и звуки
-
+├── README.md        # Описание проекта
+└── assets/          # Ресурсы
+    ├── images/      # Изображения
+    │   ├── correct.png
+    │   ├── wrong.png
+    │   └── neutral.png
+    └── sounds/      # Звуки
+        ├── correct.mp3
+        ├── wrong.mp3
+        └── bgm.mp3
+```
 ---
 
 献给所有即将或正在俄罗斯留学的同学。
